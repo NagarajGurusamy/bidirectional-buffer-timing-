@@ -1,0 +1,102 @@
+$date
+	Sat Nov 15 01:56:42 2025
+$end
+
+$version
+	Synopsys VCS version U-2023.03-SP2_Full64
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 bedc27dbcacc27f0 $end
+
+
+$scope module tb_bidirectional_port $end
+$var wire 1 ! data_line $end
+$var reg 1 " direction $end
+$var reg 1 # data_out $end
+$var wire 1 ! data_in $end
+$var reg 1 $ external_data $end
+$var reg 1 % external_drive $end
+
+$scope module dut $end
+$var wire 1 ! data_line $end
+$var wire 1 " direction $end
+$var wire 1 # data_out $end
+$var wire 1 ! data_in $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0#
+1"
+0$
+0%
+$end
+#10
+1#
+1!
+#20
+0"
+1%
+0!
+#30
+1$
+1!
+#40
+1"
+0%
+#50
+0"
+z!
+#51
+1%
+0$
+0!
+#61
+1"
+0%
+0#
+#71
+0"
+z!
+#72
+1%
+1$
+1!
+#82
+1"
+0%
+1#
+#92
+0"
+z!
+#93
+1%
+1!
+#103
+1"
+0%
+#113
+0"
+z!
+#114
+1%
+1!
+#124
+1"
+0%
+#134
+0"
+z!
+#135
+1%
+0$
+0!
